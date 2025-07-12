@@ -1,7 +1,7 @@
 # 犬種分類アプリ (Dog Breed Classifier App)
 
 ## 概要
-犬の写真をアップロードするだけで、AIが犬種を自動判定する Android アプリです。TensorFlow Lite を使用した機械学習モデルにより、120種類の犬種を分類できます。
+犬の写真をアップロードすると、AIが犬種を自動判定する Android アプリです。TensorFlow Lite を使用した機械学習モデルにより、120種類の犬種を分類できます。
 ## 対応犬種
 120種類の犬種に対応（具体的な犬種リストは `labels_ja.txt` を参照）
 
@@ -27,7 +27,7 @@
 - **言語**: Kotlin
 - **フレームワーク**: Jetpack Compose
 - **UI**: Material3 Design
-- **最小SDK**: Android 35 (Android 14)
+- **最小SDK**: Android 33
 
 ### 機械学習
 - **機械学習フレームワーク**: TensorFlow Lite 2.12.0
